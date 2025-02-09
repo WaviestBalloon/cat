@@ -5,6 +5,7 @@
 
 #include <windows.h>
 #include <shlobj.h>
+#include <tlhelp32.h>
 
 bool file_exists(const char *filename) {
 	FILE *fp = fopen(filename, "r");
