@@ -115,7 +115,7 @@ int main(int argc, char *argv[]) {
 		return 1;
 	}
 
-	if (strlen(custom_path) != 1) {
+	if (strlen(custom_path) != 0) {
 		printf("using custom!!\n");
 		wchar_t custom_path_wchar[MAX_PATH];
 		mbstowcs(custom_path_wchar, custom_path, MAX_PATH);
